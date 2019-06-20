@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+echo "Easy Run Bots"
+echo ""
+echo ""
+echo "   1- Install and run"
+echo "   2- Only Run"
+echo "   3- Install python3.7.3"
+echo ""
+read -p "=> " HOMEMENUITEM
+case $HOMEMENUITEM  in
+    1)
+
+    ;;
+    2)
+    ;;
+    3)
+        clear
+        cd ~
+        yum update -y
+        yum install nano -y
+        yum install screen -y
+        yum install wget -y
+        yum install zip -y
+        yum install unzip -y
+        yum install gcc openssl-devel bzip2-devel libffi-devel sqlite-devel -y
+        cd /usr/src
+        wget https://www.python.org/ftp/python/3.6.8/Python-3.6.8.tgz
+        tar xzf Python-3.6.8.tgz
+        cd Python-3.6.8
+        ./configure --enable-optimizations
+        make altinstall
+        python3.6 -m pip install --upgrade pip
+        clear
+        echo "Python-3.6.8 Installed"
+        echo ""
+        python3.6 --version
+        echo "PIP upgraded"
+        echo ""
+        pip3 --version
+        sleep 5
+        clear
+        cd ~
+        git clone https://github.com/mehdiirh/ConnDroper.git
+        cd ConnDroper/
+        pip3 install -r requirements.txt
+        screen -dmS DROPER python3.6 bot.py
+        echo "CONNECTION DROPPER RUNNED SUCCESSFULLY"
+
+    ;;
+    4)
+
+    ;;
+    *)
+        echo "Sorry, I don't understand."
+    ;;
+esac
