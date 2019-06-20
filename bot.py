@@ -1,3 +1,9 @@
+'''
+Writed By : t.me/iSANDSTORM
+Channel: @MPrxy
+'''
+
+
 from telebot import TeleBot
 from time import sleep
 import os, schedule, requests
