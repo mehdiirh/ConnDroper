@@ -7,11 +7,6 @@ echo ""
 read -p "=> " HOMEMENUITEM
 case $HOMEMENUITEM  in
     1)
-
-    ;;
-    2)
-    ;;
-    3)
         clear
         cd ~
         yum update -y
@@ -45,8 +40,11 @@ case $HOMEMENUITEM  in
         echo "CONNECTION DROPPER RUNNED SUCCESSFULLY"
 
     ;;
+    2)
+    ;;
+    3)
+    ;;
     4)
-
     ;;
     *)
         echo "Sorry, I don't understand."
