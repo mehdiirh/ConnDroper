@@ -15,6 +15,20 @@ then, use this command to clone project into your server:
 git clone https://github.com/mehdiirh/ConnDroper.git && cd ConnDroper/
 ```
 
+#### edit file __bot.py__ lines 5 - 13:
+```python
+admin = [       # Enter ID of admin(s) here
+    581171836,
+    422072031
+]
+
+TOKEN = 'YOUR_TOKEN_GOES_HERE'     # Your Telegram TOKEN
+sens = 600    # Sensitivity of connections number
+timer = 300   # Set timer to DROP connections ( enter in Seconds )
+port = 80     # Your proxy external port
+```
+
+
 chmod installer:
 ```bash
 chmod +x drp
