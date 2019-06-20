@@ -3,8 +3,6 @@ echo "Easy Run Bots"
 echo ""
 echo ""
 echo "   1- Install and run"
-echo "   2- Only Run"
-echo "   3- Install python3.7.3"
 echo ""
 read -p "=> " HOMEMENUITEM
 case $HOMEMENUITEM  in
