@@ -15,7 +15,7 @@ then, use this command to clone project into your server:
 git clone https://github.com/mehdiirh/ConnDroper.git && cd ConnDroper/
 ```
 
-#### edit file __bot.py__ lines 5 - 13:
+#### edit file ```bot.py``` lines 5 - 13:
 ```python
 admin = [       # Enter ID of admin(s) here
     581171836,
@@ -40,3 +40,14 @@ run installer using this command:
 ```
 
 Enter *1* and installing will started, after installation, bot will be run automatically
+
+
+## Run Bot Manually later:
+
+#### For running bot after installation, if bot goes off or crashed or etc. :
+```bash
+cd ConnDroper/
+screen -S DROPER python3.6 bot.py
+```
+
+# GOOD LUCK ! ~ @iSANDSTORM
