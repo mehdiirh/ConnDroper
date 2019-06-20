@@ -51,3 +51,5 @@ screen -S DROPER python3.6 bot.py
 ```
 
 # GOOD LUCK ! ~ @iSANDSTORM
+
+### Telegram : [[SAND STORM]](https://t.me/iSANDSTORM)
