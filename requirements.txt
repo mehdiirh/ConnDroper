@@ -17,7 +17,7 @@ plyer==1.4.0
 protobuf==3.7.1
 pyrsistent==0.15.2
 PyVirtualDisplay==0.2.1
-PyYAML==5.1
+PyYAML==5.4
 regex==2019.4.14
 requests==2.22.0
 schedule==0.6.0
